@@ -1,0 +1,17 @@
+﻿  BinaryTree.cpp
+  main.cpp
+c:\users\v_iweizhu\source\repos\716\binarytree\main.cpp(9): error C2440: “初始化”: 无法从“BinaryTree<char> (__cdecl *)(void)”转换为“BinaryTree<char> *”
+  c:\users\v_iweizhu\source\repos\716\binarytree\main.cpp(9): note: 没有使该转换得以执行的上下文
+c:\users\v_iweizhu\source\repos\716\binarytree\main.cpp(10): error C2440: “初始化”: 无法从“Node<T> *”转换为“Node<int> *”
+          with
+          [
+              T=char
+          ]
+  c:\users\v_iweizhu\source\repos\716\binarytree\main.cpp(10): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+c:\users\v_iweizhu\source\repos\716\binarytree\main.cpp(11): error C2664: “void BinaryTree<char>::PreOrderTraverse(Node<T> *)”: 无法将参数 1 从“Node<int> *”转换为“Node<T> *”
+          with
+          [
+              T=char
+          ]
+  c:\users\v_iweizhu\source\repos\716\binarytree\main.cpp(11): note: 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+  正在生成代码...
