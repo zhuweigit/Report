@@ -1,0 +1,53 @@
+﻿  ServerSocket.cpp
+c:\users\v_iweizhu\zhuwei\chatroom\server\server\serversocket.cpp(50): warning C4101: “buf1”: 未引用的局部变量
+c:\users\v_iweizhu\zhuwei\chatroom\server\server\serversocket.cpp(54): warning C4101: “client_send”: 未引用的局部变量
+c:\users\v_iweizhu\zhuwei\chatroom\server\server\serversocket.cpp(82): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\type_traits(16707566): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\type_traits(16707566): note: 参见对正在编译的函数 模板 实例化“void std::_Invoker_functor::_Call<void(__cdecl *)(SOCKET,char *,int,int),_Ty,char*,_Ty,int>(_Callable &&,_Ty &&,char *&&,_Ty &&,int &&) noexcept(false)”的引用
+          with
+          [
+              _Ty=size_t,
+              _Callable=void (__cdecl *)(SOCKET,char *,int,int)
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\thr\xthread(237): note: 参见对正在编译的函数 模板 实例化“void std::invoke<void(__cdecl *)(SOCKET,char *,int,int),unsigned __int64,char*,unsigned __int64,int>(_Callable &&,unsigned __int64 &&,char *&&,unsigned __int64 &&,int &&) noexcept(false)”的引用
+          with
+          [
+              _Callable=void (__cdecl *)(SOCKET,char *,int,int)
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\thr\xthread(246): note: 参见对正在编译的函数 模板 实例化“void std::_LaunchPad<_Target>::_Execute<0,1,2,3,4>(std::tuple<void (__cdecl *)(SOCKET,char *,int,int),unsigned __int64,char *,unsigned __int64,int> &,std::integer_sequence<unsigned __int64,0,1,2,3,4>)”的引用
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__cdecl *)(SOCKET,char *,int,int),unsigned __int64,char *,unsigned __int64,int>,std::default_delete<std::tuple<void (__cdecl *)(SOCKET,char *,int,int),unsigned __int64,char *,unsigned __int64,int>>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\thr\xthread(245): note: 参见对正在编译的函数 模板 实例化“void std::_LaunchPad<_Target>::_Execute<0,1,2,3,4>(std::tuple<void (__cdecl *)(SOCKET,char *,int,int),unsigned __int64,char *,unsigned __int64,int> &,std::integer_sequence<unsigned __int64,0,1,2,3,4>)”的引用
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__cdecl *)(SOCKET,char *,int,int),unsigned __int64,char *,unsigned __int64,int>,std::default_delete<std::tuple<void (__cdecl *)(SOCKET,char *,int,int),unsigned __int64,char *,unsigned __int64,int>>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\thr\xthread(242): note: 编译 类 模板 成员函数 "void std::_LaunchPad<_Target>::_Run(std::_LaunchPad<_Target> *) noexcept" 时
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__cdecl *)(SOCKET,char *,int,int),unsigned __int64,char *,unsigned __int64,int>,std::default_delete<std::tuple<void (__cdecl *)(SOCKET,char *,int,int),unsigned __int64,char *,unsigned __int64,int>>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\thr\xthread(230): note: 参见对正在编译的函数 模板 实例化“void std::_LaunchPad<_Target>::_Run(std::_LaunchPad<_Target> *) noexcept”的引用
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__cdecl *)(SOCKET,char *,int,int),unsigned __int64,char *,unsigned __int64,int>,std::default_delete<std::tuple<void (__cdecl *)(SOCKET,char *,int,int),unsigned __int64,char *,unsigned __int64,int>>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\thr\xthread(257): note: 参见对正在编译的 类 模板 实例化 "std::_LaunchPad<_Target>" 的引用
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__cdecl *)(SOCKET,char *,int,int),unsigned __int64,char *,unsigned __int64,int>,std::default_delete<std::tuple<void (__cdecl *)(SOCKET,char *,int,int),unsigned __int64,char *,unsigned __int64,int>>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\thread(46): note: 参见对正在编译的函数 模板 实例化“void std::_Launch<std::unique_ptr<std::tuple<void (__cdecl *)(SOCKET,char *,int,int),unsigned __int64,char *,unsigned __int64,int>,std::default_delete<_Ty>>>(_Thrd_t *,_Target &&)”的引用
+          with
+          [
+              _Ty=std::tuple<void (__cdecl *)(SOCKET,char *,int,int),unsigned __int64,char *,unsigned __int64,int>,
+              _Target=std::unique_ptr<std::tuple<void (__cdecl *)(SOCKET,char *,int,int),unsigned __int64,char *,unsigned __int64,int>,std::default_delete<std::tuple<void (__cdecl *)(SOCKET,char *,int,int),unsigned __int64,char *,unsigned __int64,int>>>
+          ]
+  c:\users\v_iweizhu\zhuwei\chatroom\server\server\serversocket.cpp(57): note: 参见对正在编译的函数 模板 实例化“std::thread::thread<void(__cdecl &)(SOCKET,char *,int,int),SOCKET&,char(&)[100],size_t,int,void>(_Fn,SOCKET &,char (&)[100],size_t &&,int &&)”的引用
+          with
+          [
+              _Fn=void (__cdecl &)(SOCKET,char *,int,int)
+          ]
+  Server.vcxproj -> C:\Users\v_iweizhu\zhuwei\ChatRoom\Server\x64\Debug\Server.exe
