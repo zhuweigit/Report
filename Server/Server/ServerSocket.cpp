@@ -11,14 +11,7 @@ using std::string;
 using std::endl;
 using std::thread;
 
-//typedef struct Date {
-//	float m1;
-//	float m2;
-//	float m3;
-//	float m_roll;
-//	float m_pitch;
-//	float m_rotate;
-//}Datablock;
+ 
 
 void SendMessage1(SOCKET sconnect, char* transmit, int len, int);
  
@@ -51,7 +44,6 @@ int main()
 	char buf2[500];
 	while (true) 
 	{
-	  Datablock client_send;
 	  //·¢ĞÅ
 	  char transmit[100];
 	  thread t1(SendMessage1, sconnect, transmit, strlen(transmit) + 1, 0);
@@ -79,7 +71,7 @@ void SendMessage1(SOCKET sconnect, char* transmit, int len, int)
 		memset(transmit, '\0', sizeof(transmit));
 		cin.getline(transmit, 99);
 		send(sconnect, transmit, strlen(transmit) + 1, 0);
-		memset(transmit, 0, sizeof(transmit));
+		memset(transmit, '\0', sizeof(transmit));
 	}
 	
 }
